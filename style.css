@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.mole {
+  background-image: url("molu.jpg");
+  background-size: cover;
+}
